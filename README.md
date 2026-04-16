@@ -24,22 +24,22 @@ Tech Stack
 
 Project Workflow
 1.	Data Loading 
-o	Loaded dataset using PySpark DataFrame 
+-	Loaded dataset using PySpark DataFrame 
 2.	Data Exploration 
-o	Checked schema, summary statistics 
-o	Analyzed class distribution 
+-	Checked schema, summary statistics 
+-	Analyzed class distribution 
 3.	Data Cleaning 
-o	Handled zero values by replacing with mean 
-o	Ensured data consistency 
+-	Handled zero values by replacing with mean 
+-	Ensured data consistency 
 4.	Feature Engineering 
-o	Used VectorAssembler to combine features 
+-	Used VectorAssembler to combine features 
 5.	Model Building 
-o	Logistic Regression 
-o	Decision Tree 
-o	Random Forest 
-o	Gradient Boosted Trees 
+- Logistic Regression 
+- Decision Tree 
+-	Random Forest 
+-	Gradient Boosted Trees 
 6.	Model Evaluation 
-o	Compared models using accuracy 
+-	Compared models using accuracy 
 
 Model Performance
 Model	Accuracy
